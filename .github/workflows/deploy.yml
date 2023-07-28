@@ -17,8 +17,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: 18.17.0 # Perbarui versi Node.js menjadi 16.x
-          # Atau, Anda bisa menggunakan versi yang lebih spesifik seperti '16.14.0'
+          node-version: 16
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1

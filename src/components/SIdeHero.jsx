@@ -3,9 +3,9 @@ export default function SideHero() {
     <>
       <section className="side-hero-section">
         <div className="top-dscp">
-          <h1>Fikarム</h1>
+          <h1>Fikar</h1>
           <h3>
-            im Student <span> & Junior Devoloper</span>
+            im Student <span> Junior Devoloper</span>
           </h3>
         </div>
       </section>

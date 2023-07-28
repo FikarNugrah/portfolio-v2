@@ -1,7 +1,11 @@
+import SideHero from "./components/sideHero";
+import MainHero from "./components/mainHero";
+import SideBar from "./components/sideBar";
+
 function App() {
   return (
     <>
-      <h1>TESTING</h1>
+      <SideHero />
     </>
   );
 }

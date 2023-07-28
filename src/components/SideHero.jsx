@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function SideHero() {
-  return <div>SideHero</div>;
+  return (
+    <>
+      <h1>SIDE HEERO</h1>
+    </>
+  );
 }

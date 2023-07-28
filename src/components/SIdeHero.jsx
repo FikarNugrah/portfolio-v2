@@ -5,7 +5,7 @@ export default function SideHero() {
         <div className="top-dscp">
           <h1>Fikarム</h1>
           <h3>
-            Student <span> & Junior Devoloper</span>
+            im Student <span> & Junior Devoloper</span>
           </h3>
         </div>
       </section>

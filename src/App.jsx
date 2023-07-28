@@ -1,4 +1,4 @@
-import SideHero from "./components/sideHero";
+import SideHero from "./components/SideHero";
 
 function App() {
   return (

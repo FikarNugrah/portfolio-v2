@@ -1,7 +1,5 @@
+import React from "react";
+
 export default function MainHero() {
-  return (
-    <>
-      <h1>Main hero</h1>
-    </>
-  );
+  return <div>main Hero</div>;
 }

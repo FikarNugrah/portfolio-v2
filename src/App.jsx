@@ -1,6 +1,6 @@
 import SideHero from "./components/SideHero";
-import MainHero from "./components/mainHero";
-import SideBar from "./components/sideBar";
+import MainHero from "./components/MainHero";
+import SideBar from "./components/SideBar";
 
 function App() {
   return (

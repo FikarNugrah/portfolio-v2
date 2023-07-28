@@ -1,9 +1,7 @@
-import SideHero from "./components/SideHero";
-
 function App() {
   return (
     <>
-      <SideHero />
+      <h1>FIX THE ERROR</h1>
     </>
   );
 }

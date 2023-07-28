@@ -14,13 +14,129 @@ body {
   color: white;
 }
 
-.side-hero-section {
-  border: 0.5px solid rgb(102, 102, 102);
-  border-radius: 40px;
+/* SOCIAL MEDIA */
+.media-soc {
+  height: 100%;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 15px;
+  /* border: 2px solid red; */
+}
+
+.media-area {
+  /* border: 1px solid red; */
+  padding: 20px 0;
+  background-color: #161a1d;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.media-outline {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #666666;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.media-outline:hover {
+  border: 2px solid crimson;
+  box-shadow: 0 0 10px rgb(220, 20, 60);
+}
+
+.media-soc a {
+  font-size: 23px;
+  color: #666666;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.media-soc a:hover {
+  color: crimson;
+}
+
+/* SIDE HERO SECTION */
+.side-hero {
+  border: 0.5px solid #666666;
+  border-radius: 10px;
   width: 25%;
   height: 100vh;
   display: flex;
   flex-direction: column;
+  gap: 20px;
   align-items: center;
+  justify-content: space-between;
+  top: 0;
+  left: 30px;
   position: absolute;
+  padding: 20px 20px;
+}
+
+.top-dsct {
+  display: flex;
+  /* border: 2px solid red; */
+
+  align-items: center;
+}
+
+.top-dsct h1 {
+  font-weight: 600;
+  width: 80%;
+  /* border: 2px solid red; */
+  font-size: 45px;
+}
+
+.top-dsct p {
+  text-align: end;
+}
+
+.profil {
+  overflow: hidden;
+  border-radius: 15px;
+  width: 220px;
+  height: 220px;
+  /* border: 2px solid red; */
+}
+
+.hero-text {
+  /* border: 2px solid red; */
+  width: 85%;
+  text-align: center;
+}
+
+.hero-text p {
+  color: #666666;
+}
+
+.btn-contact {
+  padding: 6px 20px;
+  color: #272727;
+  border: 2px solid transparent;
+  background-color: crimson;
+  font-size: 20px;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-contact:hover {
+  border: 2px solid crimson;
+  box-shadow: 0 0 10px rgb(220, 20, 60);
+  background-color: transparent;
+  color: white;
+}
+
+.cp-rt {
+  font-size: 14px;
+  font-weight: 500;
+  color: #666666;
 }

@@ -6,7 +6,7 @@ import {
   AiOutlineComment,
 } from "react-icons/ai";
 
-export default function sideBar() {
+export default function Navigation() {
   return (
     <>
       <section className="side-bar-section">

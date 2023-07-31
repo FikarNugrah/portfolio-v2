@@ -6,7 +6,9 @@ export default function SideHero() {
     <>
       <section className="side-hero">
         <div className="top-dsct">
-          <h1>Fikarム</h1>
+          <h1>
+            Fikar <span>么</span>
+          </h1>
           <p>
             Student <span>& Junior Devoloper</span>
           </p>

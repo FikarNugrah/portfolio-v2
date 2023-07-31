@@ -9,37 +9,37 @@ import {
 export default function Navigation() {
   return (
     <>
-      <section className="side-bar-section">
-        <div className="bar-area">
-          <div className="bar">
-            <a href="#home" className="list-bar">
+      <section className="navigation-section">
+        <div className="navigation-area">
+          <div className="navigation">
+            <a href="#home" className="list-nav nav-active">
               <AiOutlineHome />
             </a>
-            <p className="title-bar">Home</p>
+            <p className="title-nav">Home</p>
           </div>
-          <div className="bar">
-            <a href="#about" className="list-bar">
+          <div className="navigation">
+            <a href="#about" className="list-nav">
               <AiOutlineUser />
             </a>
-            <p className="title-bar">About</p>
+            <p className="title-nav">About</p>
           </div>
-          <div className="bar">
-            <a href="#skills" className="list-bar">
+          <div className="navigation">
+            <a href="#skills" className="list-nav">
               <AiOutlineBlock />
             </a>
-            <p className="title-bar">Skills</p>
+            <p className="title-nav">Skills</p>
           </div>
-          <div className="bar">
-            <a href="#project" className="list-bar">
+          <div className="navigation">
+            <a href="#project" className="list-nav">
               <AiOutlineDeploymentUnit />
             </a>
-            <p className="title-bar">Project</p>
+            <p className="title-nav">Project</p>
           </div>
-          <div className="bar">
-            <a href="#contact" className="list-bar">
+          <div className="navigation">
+            <a href="#contact" className="list-nav">
               <AiOutlineComment />
             </a>
-            <p className="title-bar">Contact</p>
+            <p className="title-nav">Contact</p>
           </div>
         </div>
       </section>

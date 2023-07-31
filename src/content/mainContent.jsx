@@ -1,10 +1,4 @@
-import {
-  AiOutlineHome,
-  AiOutlineUser,
-  AiOutlineBlock,
-  AiOutlineDeploymentUnit,
-  AiOutlineComment,
-} from "react-icons/ai";
+import { AiOutlineHome } from "react-icons/ai";
 
 export default function MainContent() {
   return (

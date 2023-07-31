@@ -1,5 +1,12 @@
 import React from "react";
+import MainContent from "../content/mainContent";
 
 export default function MainHero() {
-  return <div>main Hero</div>;
+  return (
+    <>
+      <section className="main-section">
+        <MainContent />
+      </section>
+    </>
+  );
 }

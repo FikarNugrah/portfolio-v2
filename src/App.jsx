@@ -1,6 +1,6 @@
 import SideHero from "./components/SideHero";
 import MainHero from "./components/MainHero";
-import SideBar from "./components/SideBar";
+import SideBar from "./components/sideBar";
 import Social from "./components/Social";
 
 function App() {
@@ -8,6 +8,8 @@ function App() {
     <>
       <Social />
       <SideHero />
+      <SideBar />
+      <MainHero />
     </>
   );
 }

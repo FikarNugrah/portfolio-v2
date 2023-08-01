@@ -3,6 +3,7 @@ import MainContent from "../content/mainContent";
 import AboutContent from "../content/aboutContent";
 import SkillsContent from "../content/skillsContent";
 import ProjectContent from "../content/projectContent";
+import Contact from "../content/contact";
 
 export default function MainHero() {
   return (
@@ -12,6 +13,7 @@ export default function MainHero() {
         <AboutContent />
         <SkillsContent />
         <ProjectContent />
+        <Contact />
       </section>
     </>
   );

@@ -20,7 +20,11 @@ export default function SideHero() {
           <h1>My Second Portfolio in 2023 </h1>
           <p>in 2023 I have Created 2 Portfolios</p>
         </div>
-        <button className="btn-contact">CONTACT ME</button>
+        <div className="btn-area">
+          <button className="btn-contact">
+            <a href="#contact">CONTACT ME</a>
+          </button>
+        </div>
         <p className="cp-rt">&copy; 2023 | fikar Portfolio-v2</p>
       </section>
     </>

@@ -10,6 +10,7 @@ export default function MainContent() {
         </p>
         <p className="intro">
           Say Hallo! From <span>Fikar</span>, a student and junior developer
+          <span>.</span>
         </p>
         <p className="support-intro">
           I will develop my skills in the field of web developer, and help

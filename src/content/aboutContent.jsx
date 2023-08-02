@@ -22,7 +22,7 @@ export default function AboutContent() {
             a project and develop it until it becomes extraordinary
           </p>
           <div>
-            <p>My Hobies :</p>
+            <p className="end-topic-about">My Hobies :</p>
             <br />
             <div className="hobies-area">
               <div className="hobies">

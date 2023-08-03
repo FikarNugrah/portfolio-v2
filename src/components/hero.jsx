@@ -23,6 +23,28 @@ export default function Hero() {
             <h1>My Second Portfolio in 2023 </h1>
             <p>in 2023 I have Created 2 Portfolios</p>
           </div>
+          <div className="list-media">
+            <div className="media-outline">
+              <a href="https://www.instagram.com/sanc_fikar/?hl=id">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+            <div className="media-outline">
+              <a href="https://www.facebook.com/yafikar.paskah/">
+                <i className="fa-brands fa-facebook"></i>
+              </a>
+            </div>
+            <div className="media-outline">
+              <a href="https://www.youtube.com/channel/UCfd3WGWC8o3-6T1FlnuCVKw">
+                <i className="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+            <div className="media-outline">
+              <a href="https://www.tiktok.com/@y4fi_yan">
+                <i className="fa-brands fa-tiktok"></i>
+              </a>
+            </div>
+          </div>
           <div className="footer-hero">
             <div className="btn-area">
               <button className="btn-contact">

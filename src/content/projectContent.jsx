@@ -20,7 +20,7 @@ export default function ProjectContent() {
             <div className="project">
               <img width={300} src={projct1} alt="" />
             </div>
-            <p className="time">4 months ago</p>
+            <p className="time">4 months ago - Random Website</p>
           </div>
           <div className="prjct-area">
             <div className="project">

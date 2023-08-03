@@ -26,15 +26,15 @@ export default function AboutContent() {
             <br />
             <div className="hobies-area">
               <div className="hobies">
-                <i class="fa-solid fa-volleyball"></i>
+                <i className="fa-solid fa-volleyball"></i>
                 <p>Vollay</p>
               </div>
               <div className="hobies">
-                <i class="fa-solid fa-guitar"></i>
+                <i className="fa-solid fa-guitar"></i>
                 <p>guitarist</p>
               </div>
               <div className="hobies">
-                <i class="fa-solid fa-code"></i>
+                <i className="fa-solid fa-code"></i>
                 <p>Ngoding</p>
               </div>
             </div>

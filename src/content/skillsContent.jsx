@@ -62,7 +62,7 @@ export default function SkillsContent() {
               </i>
               <p>Junior</p>
             </div>
-            <p className="spek-skills">React Js</p>
+            <p className="spek-skills">React JS</p>
           </div>
         </div>
       </section>

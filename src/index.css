@@ -670,7 +670,7 @@ input {
 }
 
 /* ANDROID > =============================================*/
-@media (max-width: 486px) {
+@media (max-width: 480px) {
   .main-section {
     /* border: 2px solid red; */
     position: relative;
@@ -774,9 +774,19 @@ input {
     border-radius: 50px;
   }
 
+  .btn-contact a {
+    user-select: none;
+  }
+
   /* NAV MOBILE */
+  .blur {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
   .nav-mobile {
-    position: relative;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
     display: flex;
   }
 
@@ -815,10 +825,8 @@ input {
     background-color: #121314;
     transition: all 0.3s ease;
     padding: 35px 0 0 0px;
-    opacity: 0;
   }
   .menu-in {
-    opacity: 1;
     width: 280px;
   }
 
@@ -1029,14 +1037,14 @@ input {
 
   .skills {
     /* border: 2px solid red; */
-    width: 140px;
+    width: 120px;
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
 
   .skills-area {
-    height: 210px;
+    height: 180px;
     border-radius: 100px;
     display: flex;
     flex-direction: column;
@@ -1052,11 +1060,11 @@ input {
   }
 
   .skills-area i {
-    font-size: 80px;
+    font-size: 60px;
   }
 
   .skills-area p {
-    font-size: 20px;
+    font-size: 18px;
     color: crimson;
   }
 

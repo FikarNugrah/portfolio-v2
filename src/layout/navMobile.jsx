@@ -13,6 +13,7 @@ export default function NavMobile() {
 
   function btnMenu() {
     setMenu(true);
+    document.querySelector(".nav-mobile").classList.toggle("blur");
     if (menu === true) {
       setMenu(false);
     }

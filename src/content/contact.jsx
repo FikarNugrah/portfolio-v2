@@ -44,6 +44,7 @@ export default function Contact() {
             </div>
           </form>
         </div>
+        <p className="footer">Thank You For Visiting🙏</p>
       </section>
     </>
   );

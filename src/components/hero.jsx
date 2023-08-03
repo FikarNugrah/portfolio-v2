@@ -2,8 +2,21 @@
 
 import "../style/hero.css";
 import profil from "../assets/profil.jpeg";
+import { useState } from "react";
 
 export default function Hero() {
+  const [btnContack, setBtnCtk] = useState(false);
+
+  const btnCtk = () => {
+    setBtnCtk(true);
+    if (btnContack === true) {
+      setBtnCtk(false);
+    }
+    setTimeout(() => {
+      setBtnCtk(false);
+    }, 1000);
+  };
+
   return (
     <>
       <section className="hero-section">
@@ -47,9 +60,15 @@ export default function Hero() {
           </div>
           <div className="footer-hero">
             <div className="btn-area">
-              <button className="btn-contact">
-                <a href="#contact">CONTACT ME</a>
-              </button>
+              <a onClick={btnCtk}>
+                <button
+                  className={
+                    btnContack ? "btn-contact btn-click" : "btn-contact"
+                  }
+                >
+                  CONTACT ME
+                </button>
+              </a>
             </div>
             <p className="cp-rt">&copy; 2023 | fikar Portfolio-v2</p>
           </div>

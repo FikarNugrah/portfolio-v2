@@ -728,10 +728,10 @@ input {
   }
 
   .top-dsct h1 {
-    font-weight: 600;
+    font-weight: 400;
     width: 80%;
     /* border: 2px solid red; */
-    font-size: 45px;
+    font-size: 43px;
     display: flex;
   }
 

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { CgMenuMotion } from "react-icons/cg";
 import {
   AiOutlineHome,
@@ -11,6 +11,8 @@ import {
 export default function NavMobile() {
   const [menu, setMenu] = useState(false);
   const [buttonColor, setButtonColor] = useState("white");
+  const sections = ["home", "about", "skills", "project", "contact"];
+  const [activeSection, setActiveSection] = useState(sections[0]);
 
   const btnMenu = () => {
     setMenu(true);
@@ -25,8 +27,38 @@ export default function NavMobile() {
   navs.forEach((nav) => {
     nav.addEventListener("click", function () {
       setMenu(false);
+      setButtonColor("white");
     });
   });
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      const windowHeight = window.innerHeight;
+
+      // Calculate which section is in view
+      const sectionInView = sections.find((section) => {
+        const element = document.getElementById(section);
+        if (element) {
+          const { top, bottom } = element.getBoundingClientRect();
+          return top <= windowHeight / 2 && bottom >= windowHeight / 2;
+        }
+        return false;
+      });
+
+      if (sectionInView) {
+        setActiveSection(sectionInView);
+      }
+    };
+
+    // Add event listener for scrolling
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [sections]);
 
   return (
     <>
@@ -41,34 +73,78 @@ export default function NavMobile() {
             <p className="menu-text">Menu</p>
             <div className="list-menu">
               <a href="#home" className="nav">
-                <i>
+                <i
+                  className={activeSection === "home" ? "list icon-on" : "list"}
+                >
                   <AiOutlineHome />
                 </i>
-                <p>Home </p>
+                <p
+                  className={activeSection === "home" ? "list nav-on" : "list"}
+                >
+                  Home
+                </p>
               </a>
               <a href="#about" className="nav">
-                <i>
+                <i
+                  className={
+                    activeSection === "about" ? "list icon-on" : "list"
+                  }
+                >
                   <AiOutlineUser />
                 </i>
-                <p>About</p>
+                <p
+                  className={activeSection === "about" ? "list nav-on" : "list"}
+                >
+                  About
+                </p>
               </a>
               <a href="#skills" className="nav">
-                <i>
+                <i
+                  className={
+                    activeSection === "skills" ? "list icon-on" : "list"
+                  }
+                >
                   <AiOutlineBlock />
                 </i>
-                <p>Skills</p>
+                <p
+                  className={
+                    activeSection === "skills" ? "list nav-on" : "list"
+                  }
+                >
+                  Skills
+                </p>
               </a>
               <a href="#project" className="nav">
-                <i>
+                <i
+                  className={
+                    activeSection === "project" ? "list icon-on" : "list"
+                  }
+                >
                   <AiOutlineDeploymentUnit />
                 </i>
-                <p>Project</p>
+                <p
+                  className={
+                    activeSection === "project" ? "list nav-on" : "list"
+                  }
+                >
+                  Project
+                </p>
               </a>
               <a href="#contact" className="nav">
-                <i>
+                <i
+                  className={
+                    activeSection === "contact" ? "list icon-on" : "list"
+                  }
+                >
                   <AiOutlineComment />
                 </i>
-                <p>Contact</p>
+                <p
+                  className={
+                    activeSection === "contact" ? "list nav-on" : "list"
+                  }
+                >
+                  Contact
+                </p>
               </a>
             </div>
           </div>

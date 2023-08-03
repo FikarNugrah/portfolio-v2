@@ -26,19 +26,19 @@ export default function ProjectContent() {
             <div className="project">
               <img width={300} src={projct2} alt="" />
             </div>
-            <p className="time">3 months ago</p>
+            <p className="time">3 months ago - Game Store</p>
           </div>
           <div className="prjct-area">
             <div className="project">
               <img width={300} src={projct3} alt="" />
             </div>
-            <p className="time">1 months ago</p>
+            <p className="time">1 months ago - Sreaming Movie</p>
           </div>
           <div className="prjct-area">
             <div className="project">
               <img width={300} src={projct4} alt="" />
             </div>
-            <p className="time">2 weeks ago</p>
+            <p className="time">2 weeks ago - Form Login</p>
           </div>
         </div>
       </section>

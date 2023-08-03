@@ -10,14 +10,16 @@ import {
 
 export default function NavMobile() {
   const [menu, setMenu] = useState(false);
+  const [buttonColor, setButtonColor] = useState("white");
 
-  function btnMenu() {
+  const btnMenu = () => {
     setMenu(true);
-    document.querySelector(".nav-mobile").classList.toggle("blur");
+    setButtonColor("crimson");
     if (menu === true) {
       setMenu(false);
+      setButtonColor("white");
     }
-  }
+  };
 
   const navs = document.querySelectorAll(".nav");
   navs.forEach((nav) => {
@@ -30,7 +32,7 @@ export default function NavMobile() {
     <>
       <section className="nav-mobile">
         <button className="btn-nav-menu" onClick={btnMenu}>
-          <i className="menu-logo">
+          <i className="menu-logo" style={{ color: buttonColor }}>
             <CgMenuMotion />
           </i>
         </button>

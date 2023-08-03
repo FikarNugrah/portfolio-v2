@@ -32,7 +32,6 @@ export default function NavMobile() {
           <i className="menu-logo">
             <CgMenuMotion />
           </i>
-          <p className="menu-title">MENU</p>
         </button>
         <section className={menu ? "menu-in menu-out" : "menu-out"}>
           <div className="menu-area">

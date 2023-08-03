@@ -191,7 +191,12 @@ body {
   color: #929292;
 }
 
-/* side bar */
+/* NAV MENU */
+.nav-mobile {
+  display: none;
+}
+
+/* NAVIGATION */
 .navigation-section {
   /* border: 2px solid blue; */
   height: 100%;
@@ -665,7 +670,7 @@ input {
 }
 
 /* ANDROID > =============================================*/
-@media (max-width: 425px) {
+@media (max-width: 486px) {
   .main-section {
     /* border: 2px solid red; */
     position: relative;
@@ -772,16 +777,17 @@ input {
   /* NAV MOBILE */
   .nav-mobile {
     position: relative;
+    display: flex;
   }
 
   .btn-nav-menu {
     background-color: transparent;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     position: fixed;
     z-index: 999;
-    top: 20px;
-    right: 20px;
+    top: 10px;
+    right: 10px;
     border-radius: 50%;
     background-color: #161a1d;
     border: 0.6px solid #929292;
@@ -790,22 +796,9 @@ input {
     justify-content: center;
     transition: all 0.2s ease-in-out;
   }
-  .btn-nav-menu:hover .menu-title {
-    opacity: 1;
-  }
+
   .btn-nav-menu:hover .menu-logo {
     color: crimson;
-  }
-
-  .menu-title {
-    position: absolute;
-    color: white;
-    opacity: 0;
-    right: 80px;
-    background-color: crimson;
-    padding: 5px 20px;
-    transition: all 0.2s ease-in-out;
-    border-radius: 50px;
   }
 
   .menu-logo {
@@ -1277,6 +1270,7 @@ input {
   /* NAV MOCILE */
   .nav-mobile {
     position: relative;
+    display: flex;
   }
 
   .btn-nav-menu {
@@ -1285,8 +1279,8 @@ input {
     height: 70px;
     position: fixed;
     z-index: 999;
-    top: 20px;
-    right: 20px;
+    top: 10px;
+    right: 10px;
     border-radius: 50%;
     background-color: #161a1d;
     border: 0.6px solid #929292;
@@ -1295,22 +1289,9 @@ input {
     justify-content: center;
     transition: all 0.2s ease-in-out;
   }
-  .btn-nav-menu:hover .menu-title {
-    opacity: 1;
-  }
+
   .btn-nav-menu:hover .menu-logo {
     color: crimson;
-  }
-
-  .menu-title {
-    position: absolute;
-    color: white;
-    opacity: 0;
-    right: 80px;
-    background-color: crimson;
-    padding: 5px 20px;
-    transition: all 0.2s ease-in-out;
-    border-radius: 50px;
   }
 
   .menu-logo {

@@ -60,7 +60,7 @@ export default function Hero() {
           </div>
           <div className="footer-hero">
             <div className="btn-area">
-              <a onClick={btnCtk}>
+              <a href="#contact" onClick={btnCtk}>
                 <button
                   className={
                     btnContack ? "btn-contact btn-click" : "btn-contact"

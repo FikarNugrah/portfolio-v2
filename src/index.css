@@ -231,8 +231,24 @@ body {
   transition: all 0.1s ease-in-out;
 }
 
+.list-nav:hover {
+  color: crimson;
+  filter: drop-shadow(0 0 1px crimson);
+}
+
 .nav-active {
   color: crimson;
+}
+
+.title-nav {
+  position: absolute;
+  background-color: crimson;
+  border-radius: 20px 0px 0 20px;
+  padding: 4px 20px;
+  opacity: 0;
+  left: 35px;
+  margin-top: -5px;
+  transition: all 0.1s ease-in-out;
 }
 
 a.list-nav:hover + p.title-nav {
@@ -650,6 +666,7 @@ input {
 
 .footer {
   text-align: center;
+  color: #929292;
   padding-bottom: 10px;
 }
 

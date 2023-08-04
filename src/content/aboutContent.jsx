@@ -21,7 +21,7 @@ export default function AboutContent() {
             other, especially when you can code together or collaborate to make
             a project and develop it until it becomes extraordinary
           </p>
-          <div>
+          <div className="my-hobby">
             <p className="end-topic-about">My Hobies :</p>
             <br />
             <div className="hobies-area">

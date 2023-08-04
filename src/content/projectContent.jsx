@@ -32,7 +32,7 @@ export default function ProjectContent() {
             <div className="project">
               <img width={300} src={projct3} alt="" />
             </div>
-            <p className="time">1 months ago - Sreaming Movie</p>
+            <p className="time">1 months ago - Streaming Movie</p>
           </div>
           <div className="prjct-area">
             <div className="project">

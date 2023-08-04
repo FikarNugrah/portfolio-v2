@@ -3,7 +3,7 @@ import { AiOutlineHome } from "react-icons/ai";
 export default function MainContent() {
   return (
     <>
-      <div className="main-content" id="home">
+      <div className="main-content" data-aos="fade-right" id="home">
         <p className="introduce">
           <AiOutlineHome />
           INTRODUCE
@@ -17,11 +17,11 @@ export default function MainContent() {
           support me
         </p>
         <div className="status">
-          <div className="started">
+          <div className="started" data-aos="fade-right">
             <h1>4+</h1>
             <p>been studying for 4 months</p>
           </div>
-          <div className="complated">
+          <div className="complated" data-aos="fade-left">
             <h1>30+</h1>
             <p>Has worked on more than 30 projects</p>
           </div>

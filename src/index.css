@@ -1285,7 +1285,7 @@ input {
     height: 90%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
     align-items: center;
     top: 0;
     left: 30px;
@@ -1298,17 +1298,28 @@ input {
   }
 
   .top-dsct h1 {
-    font-weight: 600;
+    font-weight: 400;
     width: 80%;
     /* border: 2px solid red; */
-    font-size: 45px;
+    font-size: 43px;
     display: flex;
   }
 
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
   .hero-text h1 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
     color: white;
+  }
+  .hero-text p {
+    font-size: 14px;
+    font-weight: 400;
   }
 
   .hero-area .list-media {

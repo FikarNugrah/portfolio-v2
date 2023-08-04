@@ -1,18 +1,32 @@
 import { AiOutlineUser } from "react-icons/ai";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init({
+  duration: 1000,
+});
 
 export default function AboutContent() {
   return (
     <>
       <section className="about-content" id="about">
-        <p className="about">
+        <p className="about" data-aos="fade-up" data-aos-duration="1000">
           <AiOutlineUser />
           ABOUT ME
         </p>
         <div className="content-of-about">
-          <h1 className="motivation-about">
+          <h1
+            className="motivation-about"
+            data-aos="fade-up"
+            data-aos-duration="1100"
+          >
             It Takes a Lot of Motivation <span>To Beat Vanishing Intent</span>.
           </h1>
-          <p className="description-about">
+          <p
+            className="description-about"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             I have started my efforts to achieve my dream since grade 2 of
             Vocational School, namely in early May 2022 to become a Professional
             Web Devoloper, and there are so many obstacles that come as if I
@@ -21,7 +35,7 @@ export default function AboutContent() {
             other, especially when you can code together or collaborate to make
             a project and develop it until it becomes extraordinary
           </p>
-          <div className="my-hobby">
+          <div className="my-hobby" data-aos="fade-up" data-aos-duration="1200">
             <p className="end-topic-about">My Hobies :</p>
             <br />
             <div className="hobies-area">

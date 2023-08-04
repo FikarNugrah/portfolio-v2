@@ -4,7 +4,7 @@ export default function Social() {
   return (
     <>
       <section className="media-soc">
-        <div className="media-area">
+        <div className="media-area" data-aos="fade-up">
           <div className="media-outline">
             <a href="https://www.instagram.com/sanc_fikar/?hl=id">
               <i className="fa-brands fa-instagram"></i>

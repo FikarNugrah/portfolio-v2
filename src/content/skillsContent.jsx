@@ -11,15 +11,19 @@ export default function SkillsContent() {
   return (
     <>
       <section className="skills-content" id="skills">
-        <p className="header-skills-content">
+        <p
+          className="header-skills-content"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
           <AiOutlineBlock />
           MY SKILLS
         </p>
-        <p className="Advantages">
+        <p className="Advantages" data-aos="fade-up" data-aos-duration="2000">
           My <span>Advantages</span>
         </p>
         <div className="list-skills">
-          <div className="skills">
+          <div className="skills" data-aos="fade-up" data-aos-duration="1200">
             <div className="skills-area">
               <i>
                 <AiOutlineHtml5 />
@@ -28,7 +32,7 @@ export default function SkillsContent() {
             </div>
             <p className="spek-skills">Html</p>
           </div>
-          <div className="skills">
+          <div className="skills" data-aos="fade-up" data-aos-duration="1400">
             <div className="skills-area">
               <i>
                 <BiLogoCss3 />
@@ -37,7 +41,7 @@ export default function SkillsContent() {
             </div>
             <p className="spek-skills">CSS</p>
           </div>
-          <div className="skills">
+          <div className="skills" data-aos="fade-up" data-aos-duration="1600">
             <div className="skills-area">
               <i>
                 <BiLogoJavascript />
@@ -46,7 +50,7 @@ export default function SkillsContent() {
             </div>
             <p className="spek-skills">Java Script</p>
           </div>
-          <div className="skills">
+          <div className="skills" data-aos="fade-up" data-aos-duration="1800">
             <div className="skills-area">
               <i>
                 <BiLogoTailwindCss />
@@ -55,7 +59,7 @@ export default function SkillsContent() {
             </div>
             <p className="spek-skills">Tailwind CSS</p>
           </div>
-          <div className="skills">
+          <div className="skills" data-aos="fade-up" data-aos-duration="2000">
             <div className="skills-area">
               <i>
                 <BiLogoReact />

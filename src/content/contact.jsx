@@ -4,14 +4,26 @@ export default function Contact() {
   return (
     <>
       <section className="contact-content" id="contact">
-        <p className="header-contact-content">
+        <p
+          className="header-contact-content"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
           <AiOutlineComment />
           CONTACT ME
         </p>
-        <p className="hero-text-contact">
+        <p
+          className="hero-text-contact"
+          data-aos="fade-up"
+          data-aos-duration="1300"
+        >
           Let's Talk <span>Together!</span>
         </p>
-        <div className="contact-area">
+        <div
+          className="contact-area"
+          data-aos="fade-up"
+          data-aos-duration="1400"
+        >
           <form action="">
             <div className="general">
               <label htmlFor="name">

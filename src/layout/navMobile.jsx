@@ -7,6 +7,7 @@ import {
   AiOutlineDeploymentUnit,
   AiOutlineComment,
 } from "react-icons/ai";
+import "animate.css";
 
 export default function NavMobile() {
   const [menu, setMenu] = useState(false);
@@ -63,12 +64,7 @@ export default function NavMobile() {
   return (
     <>
       <section className="nav-mobile">
-        <button
-          className="btn-nav-menu"
-          data-aos="fade-left"
-          data-aos-duration="1200"
-          onClick={btnMenu}
-        >
+        <button className="btn-nav-menu animate__fadeInRight" onClick={btnMenu}>
           <i className="menu-logo" style={{ color: buttonColor }}>
             <CgMenuMotion />
           </i>

@@ -8,19 +8,11 @@ export default function ProjectContent() {
   return (
     <>
       <section className="project-content" id="project">
-        <p
-          className="header-project-content"
-          data-aos="fade-up"
-          data-aos-duration="1200"
-        >
+        <p className="header-project-content">
           <AiOutlineDeploymentUnit />
           PROJECTS
         </p>
-        <p
-          className="top-text-projects"
-          data-aos="fade-up"
-          data-aos-duration="1200"
-        >
+        <p className="top-text-projects">
           my <span>project</span> lately.
         </p>
         <div className="project-areas">
@@ -34,31 +26,19 @@ export default function ProjectContent() {
             </div>
             <p className="time">4 months ago - Random Website</p>
           </div>
-          <div
-            className="prjct-area"
-            data-aos="fade-down-left"
-            data-aos-duration="1400"
-          >
+          <div className="prjct-area">
             <div className="project">
               <img width={300} src={projct2} alt="" />
             </div>
             <p className="time">3 months ago - Game Store</p>
           </div>
-          <div
-            className="prjct-area"
-            data-aos="fade-up-right"
-            data-aos-duration="1600"
-          >
+          <div className="prjct-area">
             <div className="project">
               <img width={300} src={projct3} alt="" />
             </div>
             <p className="time">1 months ago - Streaming Movie</p>
           </div>
-          <div
-            className="prjct-area"
-            data-aos="fade-up-left"
-            data-aos-duration="1800"
-          >
+          <div className="prjct-area">
             <div className="project">
               <img width={300} src={projct4} alt="" />
             </div>

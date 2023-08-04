@@ -43,7 +43,7 @@ export default function Navigation() {
   return (
     <>
       <section className="navigation-section">
-        <div className="navigation-area" data-aos="fade-down">
+        <div className="navigation-area">
           <div className="navigation">
             <a
               href="#home"

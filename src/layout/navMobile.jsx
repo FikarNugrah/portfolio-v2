@@ -7,7 +7,6 @@ import {
   AiOutlineDeploymentUnit,
   AiOutlineComment,
 } from "react-icons/ai";
-// import "animate.css";
 
 export default function NavMobile() {
   const [menu, setMenu] = useState(false);

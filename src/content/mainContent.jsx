@@ -1,15 +1,10 @@
 import { AiOutlineHome } from "react-icons/ai";
-import AOS from "aos";
-import "aos/dist/aos.css";
-AOS.init({
-  duration: 1000,
-});
 
 export default function MainContent() {
   return (
     <>
       <div className="main-content" id="home">
-        <p className="introduce" data-aos="fade-right" data-aos-duration="1000">
+        <p className="introduce" data-aos="fade-right">
           <AiOutlineHome />
           INTRODUCE
         </p>

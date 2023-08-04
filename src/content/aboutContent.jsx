@@ -1,10 +1,4 @@
 import { AiOutlineUser } from "react-icons/ai";
-import AOS from "aos";
-import "aos/dist/aos.css";
-
-AOS.init({
-  duration: 1000,
-});
 
 export default function AboutContent() {
   return (

@@ -62,12 +62,8 @@ export default function NavMobile() {
 
   return (
     <>
-      <section
-        className="nav-mobile"
-        data-aos="fade-left"
-        data-aos-duration="1200"
-      >
-        <button className="btn-nav-menu" onClick={btnMenu}>
+      <section className="nav-mobile">
+        <button className="btn-nav-menu" data-aos="fade-left" onClick={btnMenu}>
           <i className="menu-logo" style={{ color: buttonColor }}>
             <CgMenuMotion />
           </i>

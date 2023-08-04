@@ -6,6 +6,7 @@ import {
   AiOutlineBlock,
   AiOutlineDeploymentUnit,
   AiOutlineComment,
+  AiOutlineLike,
 } from "react-icons/ai";
 
 export default function NavMobile() {
@@ -13,6 +14,14 @@ export default function NavMobile() {
   const [buttonColor, setButtonColor] = useState("white");
   const sections = ["home", "about", "skills", "project", "contact"];
   const [activeSection, setActiveSection] = useState(sections[0]);
+  const [like, setLike] = useState(() => {
+    const savedLike = localStorage.getItem("like");
+    return savedLike ? parseInt(savedLike) : 0;
+  });
+  const [color, setColor] = useState(() => {
+    const savedColor = localStorage.getItem("color");
+    return savedColor || "white";
+  });
 
   const btnMenu = () => {
     setMenu(true);
@@ -59,6 +68,20 @@ export default function NavMobile() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [sections]);
+
+  const iLike = () => {
+    if (like === 0) {
+      setLike(1);
+      setColor("crimson");
+    } else if (like === 1) {
+      return;
+    }
+  };
+
+  useEffect(() => {
+    localStorage.setItem("like", like.toString());
+    localStorage.setItem("color", color);
+  }, [like, color]);
 
   return (
     <>
@@ -170,6 +193,15 @@ export default function NavMobile() {
                   <i className="fa-brands fa-tiktok"></i>
                 </a>
               </div>
+            </div>
+          </div>
+          <div className="likes">
+            <p>Like This Page ?</p>
+            <div className="i-likes">
+              <p onClick={iLike} style={{ color: color }}>
+                <AiOutlineLike />
+              </p>
+              <span className="like">{like}</span>
             </div>
           </div>
         </section>

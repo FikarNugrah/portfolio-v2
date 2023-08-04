@@ -22,6 +22,7 @@ export default function NavMobile() {
     const savedColor = localStorage.getItem("color");
     return savedColor || "white";
   });
+  const [isLiked, setIsLiked] = useState(false);
 
   const btnMenu = () => {
     setMenu(true);
@@ -69,12 +70,13 @@ export default function NavMobile() {
     };
   }, [sections]);
 
+  // LIKE HALAMAN
+
   const iLike = () => {
-    if (like === 0) {
-      setLike(1);
+    if (!isLiked) {
+      setLike((prevLike) => prevLike + 1);
       setColor("crimson");
-    } else if (like === 1) {
-      return;
+      setIsLiked(true);
     }
   };
 
@@ -82,6 +84,21 @@ export default function NavMobile() {
     localStorage.setItem("like", like.toString());
     localStorage.setItem("color", color);
   }, [like, color]);
+
+  useEffect(() => {
+    const alreadyLiked = localStorage.getItem("isLiked");
+    if (alreadyLiked) {
+      setIsLiked(true);
+    } else {
+      setIsLiked(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (isLiked) {
+      localStorage.setItem("isLiked", "true");
+    }
+  }, [isLiked]);
 
   return (
     <>

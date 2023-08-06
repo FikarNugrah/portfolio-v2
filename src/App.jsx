@@ -1,3 +1,4 @@
+import React from "react";
 import SideHero from "./components/SideHero";
 import MainHero from "./components/MainHero";
 import Social from "./components/Social";

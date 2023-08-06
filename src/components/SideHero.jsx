@@ -1,4 +1,3 @@
-import React from "react";
 import profil from "../assets/profil.jpeg";
 import "../style/hero.css";
 

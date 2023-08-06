@@ -1,5 +1,4 @@
 import { AiOutlineBlock, AiOutlineHtml5 } from "react-icons/ai";
-import { TbBrandJavascript } from "react-icons/tb";
 import {
   BiLogoCss3,
   BiLogoTailwindCss,

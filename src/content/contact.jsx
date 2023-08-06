@@ -32,11 +32,7 @@ export default function Contact() {
               </label>
               <label htmlFor="phone">
                 <p className="title-input">PHONE</p>
-                <input
-                  type="number"
-                  placeholder="YOUR PHONE NUMBER"
-                  id="phone"
-                />
+                <input type="tel" placeholder="YOUR PHONE NUMBER" id="phone" />
               </label>
               <label htmlFor="email">
                 <p className="title-input">EMAIL</p>

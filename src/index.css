@@ -45,12 +45,10 @@ body {
   position: fixed;
   z-index: 99;
   left: 15px;
-  /* border: 2px solid red; */
 }
 
 .media-area {
   position: fixed;
-  /* border: 1px solid red; */
   padding: 22px 0;
   background-color: #161a1d;
   z-index: 99;
@@ -109,15 +107,12 @@ body {
 
 .top-dsct {
   display: flex;
-  /* border: 2px solid red; */
-
   align-items: center;
 }
 
 .top-dsct h1 {
   font-weight: 600;
   width: 80%;
-  /* border: 2px solid red; */
   font-size: 45px;
   display: flex;
 }
@@ -137,11 +132,9 @@ body {
   border-radius: 25px;
   width: 220px;
   height: 220px;
-  /* border: 2px solid red; */
 }
 
 .hero-text {
-  /* border: 2px solid red; */
   width: 85%;
   text-align: center;
 }
@@ -198,7 +191,6 @@ body {
 
 /* NAVIGATION */
 .navigation-section {
-  /* border: 2px solid blue; */
   height: 100%;
   display: flex;
   justify-content: center;
@@ -209,7 +201,6 @@ body {
 }
 .navigation-area {
   padding: 20px 0;
-  /* border: 2px solid red; */
   background-color: #161a1d;
   display: flex;
   flex-direction: column;
@@ -256,7 +247,6 @@ a.list-nav:hover + p.title-nav {
 }
 
 .nav {
-  /* border: 2px solid red; */
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -265,7 +255,6 @@ a.list-nav:hover + p.title-nav {
 
 /* MAIN SECTION */
 .main-section {
-  /* border: 2px solid red; */
   width: 100%;
   padding: 0px 10px 20px 450px;
 }
@@ -277,7 +266,6 @@ a.list-nav:hover + p.title-nav {
 
 /* MAIN SECTION - MAIN CONTENT */
 .main-content {
-  /* border: 2px solid red; */
   width: 100%;
   height: 140vh;
   padding: 100px 0 0 0;
@@ -302,7 +290,6 @@ a.list-nav:hover + p.title-nav {
 .intro {
   font-size: 75px;
   width: 80%;
-  /* border: 2px solid red; */
   font-weight: 300;
 }
 
@@ -325,7 +312,6 @@ a.list-nav:hover + p.title-nav {
 .started,
 .complated {
   width: 15%;
-  /* border: 2px solid red; */
 }
 
 .started h1,
@@ -345,7 +331,6 @@ a.list-nav:hover + p.title-nav {
 
 /* ABOUT CONTENT */
 .about-content {
-  /* border: 2px solid red; */
   width: 100%;
   height: 100vh;
   padding: 80px 0 0 0;
@@ -402,7 +387,6 @@ a.list-nav:hover + p.title-nav {
 
 /* SKILLS CONTENT */
 .skills-content {
-  /* border: 2px solid red; */
   width: 100%;
   height: 140vh;
   padding: 80px 0 0 0;
@@ -434,14 +418,12 @@ a.list-nav:hover + p.title-nav {
 }
 
 .list-skills {
-  /* border: 2px solid red; */
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
 .skills {
-  /* border: 2px solid red; */
   width: 180px;
   display: flex;
   flex-direction: column;
@@ -479,7 +461,6 @@ a.list-nav:hover + p.title-nav {
 
 /* PROJECT CONTENT */
 .project-content {
-  /* border: 2px solid red; */
   width: 100%;
   height: 120vh;
   padding: 80px 0 0 0;
@@ -557,7 +538,6 @@ a.list-nav:hover + p.title-nav {
 
 /* CONTACT CONTENT */
 .contact-content {
-  /* border: 2px solid red; */
   width: 100%;
   height: 90vh;
   padding: 30px 0 0 0;
@@ -593,7 +573,6 @@ a.list-nav:hover + p.title-nav {
   width: 100%;
   height: 100%;
   padding-top: 40px;
-  /* border: 2px solid red; */
 }
 
 form {
@@ -602,7 +581,6 @@ form {
 
 .general {
   width: 100%;
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -626,12 +604,10 @@ input {
   font-size: 15px;
   font-weight: 400;
   color: white;
-  /* border: 2px solid red; */
   caret-color: crimson;
 }
 
 .cmd {
-  /* border: 2px solid blue; */
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -684,7 +660,6 @@ input {
 
 @media (max-width: 480px) {
   .main-section {
-    /* border: 2px solid red; */
     position: relative;
     width: 100%;
     padding: 0px 0px 0px 0px;
@@ -693,7 +668,6 @@ input {
   .main {
     width: 100%;
     padding: 0 80px;
-    /* border: 2px solid blue; */
   }
 
   .side-hero {
@@ -702,7 +676,6 @@ input {
   }
 
   .hero-section {
-    /* border: 2px solid blue; */
     width: 100%;
     height: 720px;
     padding: 20px 0;
@@ -722,17 +695,14 @@ input {
     top: 0;
     left: 30px;
     padding: 20px 20px;
-    /* border: 2px solid blue; */
   }
   .top-dsct {
     width: 90%;
-    /* border: 2px solid blue; */
   }
 
   .top-dsct h1 {
     font-weight: 400;
     width: 80%;
-    /* border: 2px solid red; */
     font-size: 43px;
     display: flex;
   }
@@ -756,7 +726,6 @@ input {
 
   .hero-area .list-media {
     width: 100%;
-    /* border: 2px solid red; */
     gap: 20px;
     display: flex;
     justify-content: center;
@@ -771,7 +740,6 @@ input {
 
   .footer-hero {
     width: 100%;
-    /* border: 2px solid blue; */
     display: flex;
     gap: 10px;
     align-items: center;
@@ -785,7 +753,6 @@ input {
     justify-items: center;
     border-radius: 50px;
     width: 80%;
-    /* border: 2px solid blue; */
     flex-direction: column-reverse;
   }
 
@@ -808,7 +775,6 @@ input {
   }
 
   .btn-area a {
-    /* border: 2px solid red; */
     width: 95%;
     text-decoration: none;
     display: flex;
@@ -865,7 +831,6 @@ input {
   .menu-area {
     display: flex;
     flex-direction: column;
-    /* border: 2px solid red; */
     padding-left: 40px;
     gap: 50px;
   }
@@ -876,7 +841,6 @@ input {
   }
 
   .list-menu {
-    /* border: 2px solid red; */
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -884,7 +848,6 @@ input {
   }
 
   .nav {
-    /* border: 2px solid red; */
     align-items: center;
     gap: 10px;
     display: flex;
@@ -906,7 +869,6 @@ input {
   }
 
   .list-media-area {
-    /* border: 2px solid red; */
     padding-left: 40px;
     width: 290px;
     height: 200px;
@@ -916,7 +878,6 @@ input {
 
   .list-media {
     width: 200px;
-    /* border: 2px solid red; */
     gap: 40px;
     display: flex;
     flex-wrap: wrap;
@@ -938,13 +899,11 @@ input {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* border: 2px solid red; */
   }
 
   .i-likes {
     display: flex;
     align-items: center;
-    /* border: 2px solid red; */
     gap: 10px;
     font-size: 30px;
   }
@@ -972,11 +931,9 @@ input {
   .main {
     width: 100%;
     padding: 0px 10px;
-    /* border: 2px solid blue; */
   }
 
   .main-content {
-    /* border: 2px solid blue; */
     width: 100%;
     height: 640px;
     padding: 20px 0 0 0;
@@ -995,7 +952,6 @@ input {
   .intro {
     width: 100%;
     font-size: 47px;
-    /* border: 2px solid blue; */
   }
 
   .support-intro {
@@ -1008,7 +964,6 @@ input {
     margin-top: 0px;
     height: 100%;
     align-items: center;
-    /* border: 2px solid blue; */
     gap: 110px;
     justify-content: center;
     padding-left: 0px;
@@ -1024,19 +979,16 @@ input {
   .started h1,
   .complated h1 {
     font-size: 60px;
-    /* border: 2px solid blue; */
   }
   .started p,
   .complated p {
     width: 150px;
     font-size: 13px;
     text-align: center;
-    /* border: 2px solid blue; */
   }
 
   /* ABOUT CONTENT */
   .about-content {
-    /* border: 2px solid blue; */
     height: 660px;
     gap: 20px;
     padding: 40px 0 0 0;
@@ -1050,7 +1002,6 @@ input {
   }
 
   .content-of-about {
-    /* border: 2px solid blue; */
     gap: 20px;
     width: 100%;
   }
@@ -1071,7 +1022,6 @@ input {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* border: 2px solid red; */
   }
 
   .end-topic-about {
@@ -1079,7 +1029,6 @@ input {
   }
 
   .hobies-area {
-    /* border: 2px solid red; */
     padding: 0 20px 0 0;
     display: flex;
     gap: 30px;
@@ -1091,7 +1040,6 @@ input {
 
   /* SKILLS CONTENT */
   .skills-content {
-    /* border: 2px solid red; */
     height: 980px;
     padding: 40px 0 0 0;
     display: flex;
@@ -1111,7 +1059,6 @@ input {
   }
 
   .list-skills {
-    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -1119,7 +1066,6 @@ input {
   }
 
   .skills {
-    /* border: 2px solid red; */
     width: 120px;
     display: flex;
     flex-direction: column;
@@ -1157,7 +1103,6 @@ input {
 
   /* PROJECT CONTENT */
   .project-content {
-    /* border: 2px solid red; */
     height: 1200px;
     padding: 50px 0 0 0;
   }
@@ -1174,7 +1119,6 @@ input {
   }
 
   .prjct-area {
-    /* border: 2px solid red; */
     width: 100%;
     border: none;
     align-items: center;
@@ -1183,7 +1127,6 @@ input {
   .project {
     width: 95%;
     height: 160px;
-    /* border: 2px solid red; */
   }
 
   .time {
@@ -1200,7 +1143,6 @@ input {
 
   /* CONTACT CONTENT */
   .contact-content {
-    /* border: 2px solid red; */
     height: 100vh;
     padding: 30px 0 0 0;
   }
@@ -1213,7 +1155,6 @@ input {
   }
 
   .hero-text-contact {
-    /* border: 2px solid red; */
     font-size: 38px;
     font-weight: 300;
   }
@@ -1226,7 +1167,6 @@ input {
     width: 100%;
     height: 100%;
     padding-top: 40px;
-    /* border: 2px solid red; */
   }
 
   form {
@@ -1238,7 +1178,6 @@ input {
   .general {
     width: 100%;
     padding-left: 20px;
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -1262,13 +1201,11 @@ input {
     font-size: 15px;
     font-weight: 400;
     color: white;
-    /* border: 2px solid red; */
     caret-color: crimson;
   }
 
   .cmd {
     padding-left: 20px;
-    /* border: 2px solid blue; */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1290,7 +1227,6 @@ input {
   .main {
     width: 100%;
     padding: 0 80px;
-    /* border: 2px solid blue; */
   }
 
   .side-hero {
@@ -1299,7 +1235,6 @@ input {
   }
 
   .hero-section {
-    /* border: 2px solid blue; */
     width: 100%;
     height: 750px;
     display: flex;
@@ -1319,11 +1254,9 @@ input {
     top: 0;
     left: 30px;
     padding: 20px 20px;
-    /* border: 2px solid blue; */
   }
   .top-dsct {
     width: 90%;
-    /* border: 2px solid blue; */
   }
 
   .top-dsct h1 {
@@ -1360,7 +1293,6 @@ input {
 
   .footer-hero {
     width: 100%;
-    /* border: 2px solid blue; */
     display: flex;
     gap: 10px;
     align-items: center;
@@ -1374,7 +1306,6 @@ input {
     justify-items: center;
     border-radius: 50px;
     width: 80%;
-    /* border: 2px solid blue; */
     flex-direction: column-reverse;
   }
 
@@ -1396,7 +1327,6 @@ input {
   }
 
   .btn-area a {
-    /* border: 2px solid red; */
     width: 95%;
     text-decoration: none;
     display: flex;
@@ -1468,7 +1398,6 @@ input {
   }
 
   .list-menu {
-    /* border: 2px solid red; */
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -1476,7 +1405,6 @@ input {
   }
 
   .nav {
-    /* border: 2px solid red; */
     align-items: center;
     gap: 10px;
     display: flex;
@@ -1506,7 +1434,6 @@ input {
   }
 
   .list-media-area {
-    /* border: 2px solid red; */
     width: 290px;
     height: 200px;
     display: flex;
@@ -1516,7 +1443,6 @@ input {
 
   .list-media {
     width: 200px;
-    /* border: 2px solid red; */
     gap: 40px;
     display: flex;
     flex-wrap: wrap;
@@ -1544,11 +1470,9 @@ input {
   .main {
     width: 100%;
     padding: 0px 15px;
-    /* border: 2px solid blue; */
   }
 
   .main-content {
-    /* border: 2px solid blue; */
     width: 100%;
     height: 700px;
     padding: 20px 0 0 0;
@@ -1567,7 +1491,6 @@ input {
   .intro {
     width: 100%;
     font-size: 47px;
-    /* border: 2px solid blue; */
   }
 
   .support-intro {
@@ -1578,7 +1501,6 @@ input {
 
   .status {
     margin-top: 50px;
-    /* border: 2px solid blue; */
     gap: 130px;
     padding-left: 20px;
   }
@@ -1586,12 +1508,10 @@ input {
   .started p,
   .complated p {
     width: 150px;
-    /* border: 2px solid blue; */
   }
 
   /* ABOUT CONTENT */
   .about-content {
-    /* border: 2px solid blue; */
     height: 700px;
     padding: 60px 0 0 0;
   }
@@ -1604,7 +1524,6 @@ input {
   }
 
   .content-of-about {
-    /* border: 2px solid blue; */
     width: 100%;
   }
 
@@ -1632,7 +1551,6 @@ input {
 
   /* SKILLS CONTENT */
   .skills-content {
-    /* border: 2px solid red; */
     height: 1150px;
     padding: 40px 0 0 0;
     display: flex;
@@ -1652,7 +1570,6 @@ input {
   }
 
   .list-skills {
-    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -1660,7 +1577,6 @@ input {
   }
 
   .skills {
-    /* border: 2px solid red; */
     width: 150px;
     display: flex;
     flex-direction: column;
@@ -1698,7 +1614,6 @@ input {
 
   /* PROJECT CONTENT */
   .project-content {
-    /* border: 2px solid red; */
     height: 1400px;
     padding: 50px 0 0 0;
   }
@@ -1721,7 +1636,6 @@ input {
   .project {
     width: 99%;
     height: 190px;
-    /* border: 2px solid red; */
   }
 
   .project img {
@@ -1730,7 +1644,6 @@ input {
 
   /* CONTACT CONTENT */
   .contact-content {
-    /* border: 2px solid red; */
     height: 800px;
     padding: 30px 0 0 0;
   }
@@ -1743,7 +1656,6 @@ input {
   }
 
   .hero-text-contact {
-    /* border: 2px solid red; */
     font-size: 38px;
     font-weight: 300;
   }
@@ -1756,7 +1668,6 @@ input {
     width: 100%;
     height: 100%;
     padding-top: 40px;
-    /* border: 2px solid red; */
   }
 
   form {
@@ -1768,7 +1679,6 @@ input {
   .general {
     width: 100%;
     padding-left: 20px;
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -1792,13 +1702,11 @@ input {
     font-size: 15px;
     font-weight: 400;
     color: white;
-    /* border: 2px solid red; */
     caret-color: crimson;
   }
 
   .cmd {
     padding-left: 20px;
-    /* border: 2px solid blue; */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1809,7 +1717,6 @@ input {
 /* TABLET =======================================================*/
 @media (min-width: 760px) and (max-width: 880px) {
   .main-section {
-    /* border: 2px solid red; */
     width: 100%;
     padding: 0px 0px 0px 0px;
   }
@@ -1817,7 +1724,6 @@ input {
   .main {
     width: 100%;
     padding: 0 80px;
-    /* border: 2px solid blue; */
   }
 
   .side-hero {
@@ -1826,7 +1732,6 @@ input {
   }
 
   .hero-section {
-    /* border: 2px solid blue; */
     width: 100%;
     height: 650px;
     display: flex;
@@ -1846,11 +1751,9 @@ input {
     top: 0;
     left: 30px;
     padding: 20px 20px;
-    /* border: 2px solid blue; */
   }
   .top-dsct {
     width: 90%;
-    /* border: 2px solid blue; */
   }
 
   .top-dsct h1 {
@@ -1869,7 +1772,6 @@ input {
 
   .footer-hero {
     width: 100%;
-    /* border: 2px solid blue; */
     display: flex;
     gap: 10px;
     align-items: center;
@@ -1883,7 +1785,6 @@ input {
     justify-items: center;
     border-radius: 50px;
     width: 80%;
-    /* border: 2px solid blue; */
     flex-direction: column-reverse;
   }
 
@@ -1906,7 +1807,6 @@ input {
   }
 
   .btn-area a {
-    /* border: 2px solid red; */
     width: 95%;
     text-decoration: none;
     display: flex;
@@ -1920,7 +1820,6 @@ input {
   /* NAVIGASITION BAR  */
   .navigation-section {
     width: 10px;
-    /* border: 2px solid blue; */
     height: 100%;
     left: 96%;
     top: 15px;
@@ -1928,12 +1827,10 @@ input {
   }
 
   .navigation-area {
-    /* border: 2px solid blue; */
     margin-top: 0px;
   }
 
   .navigation {
-    /* border: 2px solid blue; */
     display: flex;
     align-items: center;
     position: relative;
@@ -1961,11 +1858,9 @@ input {
   .main {
     width: 100%;
     padding: 0px 80px;
-    /* border: 2px solid blue; */
   }
 
   .main-content {
-    /* border: 2px solid blue; */
     width: 100%;
     height: 85vh;
     padding: 20px 0 0 0;
@@ -1982,7 +1877,6 @@ input {
 
   .intro {
     width: 100%;
-    /* border: 2px solid blue; */
   }
 
   .support-intro {
@@ -1993,7 +1887,6 @@ input {
 
   .status {
     margin-top: 50px;
-    /* border: 2px solid blue; */
     gap: 60px;
     padding-left: 20px;
   }
@@ -2001,12 +1894,10 @@ input {
   .started p,
   .complated p {
     width: 150px;
-    /* border: 2px solid blue; */
   }
 
   /* ABOUT CONTENT */
   .about-content {
-    /* border: 2px solid blue; */
     height: 900px;
     padding: 100px 0 0 0;
   }
@@ -2018,7 +1909,6 @@ input {
   }
 
   .content-of-about {
-    /* border: 2px solid blue; */
     width: 100%;
   }
 
@@ -2042,7 +1932,6 @@ input {
 
   /* SKILLS CONTENT */
   .skills-content {
-    /* border: 2px solid red; */
     height: 1200px;
     padding: 80px 0 0 0;
     display: flex;
@@ -2066,7 +1955,6 @@ input {
 
   /* PROJECT CONTENT */
   .project-content {
-    /* border: 2px solid red; */
     height: 1900px;
     padding: 80px 0 0 0;
   }
@@ -2084,7 +1972,6 @@ input {
   .project {
     width: 100%;
     height: 300px;
-    /* border: 2px solid red; */
   }
 
   .project img {
@@ -2093,7 +1980,6 @@ input {
 
   /* CONTACT CONTENT */
   .contact-content {
-    /* border: 2px solid red; */
     height: 70vh;
     padding: 30px 0 0 0;
   }
@@ -2130,7 +2016,6 @@ input {
   .main {
     width: 100%;
     padding: 0 80px;
-    /* border: 2px solid blue; */
   }
 
   .side-hero {
@@ -2139,7 +2024,6 @@ input {
   }
 
   .hero-section {
-    /* border: 2px solid blue; */
     width: 100%;
     height: 650px;
     display: flex;
@@ -2159,17 +2043,14 @@ input {
     top: 0;
     left: 30px;
     padding: 20px 20px;
-    /* border: 2px solid blue; */
   }
   .top-dsct {
     width: 90%;
-    /* border: 2px solid blue; */
   }
 
   .top-dsct h1 {
     font-weight: 600;
     width: 80%;
-    /* border: 2px solid red; */
     font-size: 45px;
     display: flex;
   }
@@ -2182,7 +2063,6 @@ input {
 
   .footer-hero {
     width: 100%;
-    /* border: 2px solid blue; */
     display: flex;
     gap: 10px;
     align-items: center;
@@ -2196,7 +2076,6 @@ input {
     justify-items: center;
     border-radius: 50px;
     width: 80%;
-    /* border: 2px solid blue; */
     flex-direction: column-reverse;
   }
 
@@ -2219,7 +2098,6 @@ input {
   }
 
   .btn-area a {
-    /* border: 2px solid red; */
     width: 95%;
     text-decoration: none;
     display: flex;
@@ -2233,7 +2111,6 @@ input {
   /* NAVIGASITION BAR  */
   .navigation-section {
     width: 10px;
-    /* border: 2px solid blue; */
     height: 100%;
     left: 96%;
     top: 15px;
@@ -2241,12 +2118,10 @@ input {
   }
 
   .navigation-area {
-    /* border: 2px solid blue; */
     margin-top: 0px;
   }
 
   .navigation {
-    /* border: 2px solid blue; */
     display: flex;
     align-items: center;
     position: relative;
@@ -2274,11 +2149,9 @@ input {
   .main {
     width: 100%;
     padding: 0px 80px;
-    /* border: 2px solid blue; */
   }
 
   .main-content {
-    /* border: 2px solid blue; */
     width: 100%;
     height: 85vh;
     padding: 20px 0 0 0;
@@ -2295,7 +2168,6 @@ input {
 
   .intro {
     width: 100%;
-    /* border: 2px solid blue; */
   }
 
   .support-intro {
@@ -2306,7 +2178,6 @@ input {
 
   .status {
     margin-top: 50px;
-    /* border: 2px solid blue; */
     gap: 60px;
     padding-left: 20px;
   }
@@ -2314,12 +2185,10 @@ input {
   .started p,
   .complated p {
     width: 150px;
-    /* border: 2px solid blue; */
   }
 
   /* ABOUT CONTENT */
   .about-content {
-    /* border: 2px solid blue; */
     height: 75vh;
     padding: 100px 0 0 0;
   }
@@ -2331,7 +2200,6 @@ input {
   }
 
   .content-of-about {
-    /* border: 2px solid blue; */
     width: 100%;
   }
 
@@ -2355,7 +2223,6 @@ input {
 
   /* SKILLS CONTENT */
   .skills-content {
-    /* border: 2px solid red; */
     height: 100vh;
     padding: 80px 0 0 0;
     display: flex;
@@ -2370,7 +2237,6 @@ input {
   }
 
   .list-skills {
-    /* border: 2px solid red; */
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
@@ -2378,7 +2244,6 @@ input {
 
   /* PROJECT CONTENT */
   .project-content {
-    /* border: 2px solid red; */
     width: 100%;
     height: 90vh;
     padding: 80px 0 0 0;
@@ -2402,7 +2267,6 @@ input {
 
   /* CONTACT CONTENT */
   .contact-content {
-    /* border: 2px solid red; */
     height: 80vh;
     padding: 30px 0 0 0;
   }

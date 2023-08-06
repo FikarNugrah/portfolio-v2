@@ -1,6 +1,4 @@
 // ======= ini akan tampil di TABLET DAN MOBILE ==========
-
-import "../style/hero.css";
 import profil from "../assets/profil.jpeg";
 import { useState } from "react";
 

@@ -1,4 +1,5 @@
 import { AiOutlineUser } from "react-icons/ai";
+import React from "react";
 
 export default function AboutContent() {
   return (

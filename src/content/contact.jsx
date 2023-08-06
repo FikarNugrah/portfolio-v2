@@ -1,4 +1,5 @@
 import { AiOutlineComment } from "react-icons/ai";
+import React from "react";
 
 export default function Contact() {
   return (

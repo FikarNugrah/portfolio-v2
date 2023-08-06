@@ -1,4 +1,5 @@
 // ======= ini akan tampil di TABLET DAN MOBILE ==========
+import React from "react";
 import profil from "../assets/profil.jpeg";
 import { useState } from "react";
 

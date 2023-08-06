@@ -1,3 +1,4 @@
+import React from "react";
 import { AiOutlineDeploymentUnit } from "react-icons/ai";
 import projct1 from "../assets/img1.png";
 import projct2 from "../assets/img2.png";

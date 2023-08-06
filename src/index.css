@@ -267,7 +267,7 @@ a.list-nav:hover + p.title-nav {
 /* MAIN SECTION - MAIN CONTENT */
 .main-content {
   width: 100%;
-  height: 140vh;
+  height: auto;
   padding: 100px 0 0 0;
   display: flex;
   flex-direction: column;
@@ -658,7 +658,7 @@ input {
 /*  */
 /* ANDROID > ===============================================================*/
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .main-section {
     position: relative;
     width: 100%;
@@ -671,7 +671,6 @@ input {
   }
 
   .side-hero {
-    /* background-color: blue; */
     display: none;
   }
 
@@ -935,7 +934,7 @@ input {
 
   .main-content {
     width: 100%;
-    height: 640px;
+    height: auto;
     padding: 20px 0 0 0;
     display: flex;
     flex-direction: column;
@@ -989,7 +988,7 @@ input {
 
   /* ABOUT CONTENT */
   .about-content {
-    height: 660px;
+    height: auto;
     gap: 20px;
     padding: 40px 0 0 0;
   }
@@ -1040,7 +1039,7 @@ input {
 
   /* SKILLS CONTENT */
   .skills-content {
-    height: 980px;
+    height: auto;
     padding: 40px 0 0 0;
     display: flex;
     flex-direction: column;
@@ -1104,7 +1103,7 @@ input {
   /* PROJECT CONTENT */
   .project-content {
     height: 1200px;
-    padding: 50px 0 0 0;
+    padding: 100px 0 0 0;
   }
 
   .header-project-content {
@@ -1143,7 +1142,7 @@ input {
 
   /* CONTACT CONTENT */
   .contact-content {
-    height: 100vh;
+    height: auto;
     padding: 30px 0 0 0;
   }
 
@@ -1714,8 +1713,10 @@ input {
   }
 }
 
-/* TABLET =======================================================*/
-@media (min-width: 760px) and (max-width: 880px) {
+/*  */
+/* TABLET ==========================================================================*/
+/*  */
+@media (min-width: 601px) and (max-width: 870px) {
   .main-section {
     width: 100%;
     padding: 0px 0px 0px 0px;
@@ -1862,7 +1863,7 @@ input {
 
   .main-content {
     width: 100%;
-    height: 85vh;
+    height: auto;
     padding: 20px 0 0 0;
     display: flex;
     flex-direction: column;
@@ -1898,7 +1899,7 @@ input {
 
   /* ABOUT CONTENT */
   .about-content {
-    height: 900px;
+    height: auto;
     padding: 100px 0 0 0;
   }
 
@@ -1932,7 +1933,7 @@ input {
 
   /* SKILLS CONTENT */
   .skills-content {
-    height: 1200px;
+    height: auto;
     padding: 80px 0 0 0;
     display: flex;
     flex-direction: column;
@@ -1955,7 +1956,7 @@ input {
 
   /* PROJECT CONTENT */
   .project-content {
-    height: 1900px;
+    height: 1850px;
     padding: 80px 0 0 0;
   }
 
@@ -2006,7 +2007,7 @@ input {
 }
 
 /* TABLET V2 ======================================================================*/
-@media (min-width: 870px) and (max-width: 1200px) {
+@media (min-width: 871px) and (max-width: 1240px) {
   .main-section {
     /* border: 2px solid red; */
     width: 100%;
@@ -2153,7 +2154,7 @@ input {
 
   .main-content {
     width: 100%;
-    height: 85vh;
+    height: auto;
     padding: 20px 0 0 0;
     display: flex;
     flex-direction: column;
@@ -2189,7 +2190,7 @@ input {
 
   /* ABOUT CONTENT */
   .about-content {
-    height: 75vh;
+    height: auto;
     padding: 100px 0 0 0;
   }
 
@@ -2223,7 +2224,7 @@ input {
 
   /* SKILLS CONTENT */
   .skills-content {
-    height: 100vh;
+    height: auto;
     padding: 80px 0 0 0;
     display: flex;
     flex-direction: column;
@@ -2245,7 +2246,7 @@ input {
   /* PROJECT CONTENT */
   .project-content {
     width: 100%;
-    height: 90vh;
+    height: 800px;
     padding: 80px 0 0 0;
     display: flex;
     flex-direction: column;
@@ -2293,7 +2294,7 @@ input {
 }
 
 /* LAPTOP ==========================================================================*/
-@media (min-width: 1010px) and (max-width: 1300px) {
+@media (min-width: 1241px) and (max-width: 1500px) {
   .top-dsct h1,
   .hero-text h1 {
     font-weight: 400;
@@ -2301,5 +2302,15 @@ input {
 
   .navigation a {
     font-size: 30px;
+  }
+
+  .main-content {
+    height: auto;
+  }
+  .about-content {
+    height: auto;
+  }
+  .skills-content {
+    height: auto;
   }
 }

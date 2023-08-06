@@ -1,5 +1,4 @@
 import profil from "../assets/profil.jpeg";
-import "../style/hero.css";
 
 export default function SideHero() {
   return (

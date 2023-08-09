@@ -24,12 +24,15 @@ export default function NavMobile() {
     return savedColor || "white";
   });
   const [isLiked, setIsLiked] = useState(false);
+  const [type, setType] = useState(false);
 
   const btnMenu = () => {
     setMenu(true);
+    setType(true);
     setButtonColor("crimson");
-    if (menu === true) {
+    if (menu === true || type === true) {
       setMenu(false);
+      setType(false);
       setButtonColor("white");
     }
   };
@@ -38,6 +41,7 @@ export default function NavMobile() {
   navs.forEach((nav) => {
     nav.addEventListener("click", function () {
       setMenu(false);
+      setType(false);
       setButtonColor("white");
     });
   });
@@ -103,7 +107,7 @@ export default function NavMobile() {
 
   return (
     <>
-      <section className="nav-mobile">
+      <section className={type ? "nav-mobile blur" : "nav-mobile"}>
         <button className="btn-nav-menu" data-aos="fade-left" onClick={btnMenu}>
           <i className="menu-logo" style={{ color: buttonColor }}>
             <CgMenuMotion />
